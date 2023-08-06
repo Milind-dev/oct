@@ -33,8 +33,10 @@
     display: flex;
     flex-direction: row;
     padding-left: 0.5vh;
-    font-size: 12px;
+    font-size: 14px;
     /* margin-left: 41px; */
+    color: #364154;
+    font-family: Lato;
 }
 .job-status{
     margin-left: -39px;
@@ -52,6 +54,7 @@
     font-weight: 700;
     font-size: 12px;
     line-height: 14px;
+    background-color:  hsla(9,77%,61%,.1);
 }
 .daysleftcolorred{
     
@@ -61,6 +64,7 @@
     font-size: 12px;
     line-height: 14px;
     /* background-color: #ca5843;; */
+    background-color:  hsla(9,77%,61%,.1)
 }
 .daysleftcoloryellow{
     color:rgb(196, 169, 35);
@@ -68,6 +72,7 @@
     font-weight: 700;
     font-size: 12px;
     line-height: 14px;
+    background-color: hsla(9,77%,61%,.1);
 }
 
 .see-Application-Job-btn{

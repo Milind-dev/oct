@@ -74,23 +74,30 @@ export default function Jobdata({ jobdatas, activetype }) {
               </div>
 
               <div className="job-homepage">
-                <p className="jobgeneric">{items.daysLeft} days left</p>
+                {/* <p className="jobgeneric">{items.daysLeft} days left</p> */}
                 <p>
                   {" "}
                   {items.daysLeft === 2 ? (
-                    <p className="daysleftcolorred">
-                      Get more application by extending this job post.{" "}
-                    </p>
+                    <div>
+                     <span className="daysleftcolorred">Free* {items.daysLeft} Days Left</span> 
+                     <p className="jobgeneric"> Get more application by extending this job post.{" "}</p>
+                    </div>
                   ) : items.daysLeft === 7 ? (
-                    <p className="daysleftcolorgreeen">
-                      Get more application by extending this job post.{" "}
-                    </p>
+                    // Get more application by extending this job post.{" "}
+                    <div>
+                    <span className="daysleftcolorgreeen">Free* {items.daysLeft} Days Left</span> 
+                     <p className="jobgeneric"> Get more application by extending this job post.{" "} </p>
+                      
+                    </div>
                   ) : (
-                    <p className="daysleftcoloryellow">
+                    <div>
                       {" "}
-                      You are getting better visibility as this is a premium job
-                      post.{" "}
-                    </p>
+                      <span className="daysleftcoloryellow">Premium* {items.daysLeft} Days Left</span> 
+                     <p className="jobgeneric"> You are getting better visibility as this is a premium job
+                       post.{" "}
+                       </p>
+                      
+                    </div>
                   )}{" "}
                 </p>
               </div>
