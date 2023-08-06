@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
-import Jobdata from "../jobdatas/Jobdata";
+import Jobd from "../jobdatas/Jobdata";
 // import Activejobdata from "../Jobdatas/Activejobdata";
 export default function NotFound() {
   const [dat, setDat] = useState([]);
@@ -19,7 +19,7 @@ export default function NotFound() {
         return (
           <>
             {/* <Activejobdata activetype = {item.type} jobdatassort = {item.jobData} indexes={indexes} /> */}
-            <Jobdata  jobdatas = {item.jobData}   activetype = {item.type}/>
+            <Jobd  jobdatas = {item.jobData}   activetype = {item.type}/>
           
           </>
         );
