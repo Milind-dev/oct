@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
 // import Jobd from "../jobdatas/Jobdata";
-import Activejobdata from "../Jobdatas/Activejobdata";
+import Activejobdata from "../jobdatas/Activejobdata";
 export default function NotFound() {
   const [dat, setDat] = useState([]);
   useEffect(() => {
