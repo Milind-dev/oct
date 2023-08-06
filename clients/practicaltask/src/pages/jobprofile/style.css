@@ -21,7 +21,7 @@
     padding: 2vh;
     /* background-color: #809CE0; */
 }
-.jobname{
+.job-name{
     color: #809CE0;
 }
 .jobgeneric-sidline{
@@ -42,7 +42,7 @@
     flex-direction: row;
     
 }
-.job-status > .d{
+.job-status > .job-posted-status{
     margin-left: 3vh;
    
 }
@@ -70,7 +70,7 @@
     line-height: 14px;
 }
 
-.seeApplicationJob{
+.see-Application-Job-btn{
     background: #F5F8FE;
     padding: 6px 15px 7px 16px;
     font-family: 'PT Sans', sans-serif;
@@ -85,4 +85,5 @@
     overflow: hidden;
     color: #6390DF;
     margin: 0;
+    border: none;
 }

@@ -9,7 +9,6 @@ export default function Jobdata({ jobdatas, activetype }) {
         default: "default",
         name: "name",
         recent: "recent",
-        // applied: "applied"
       };
       const sortProperty = types[type];
 
@@ -23,10 +22,8 @@ export default function Jobdata({ jobdatas, activetype }) {
           return b.name.localeCompare(a.name);
         }
       });
-      console.log("sortex", sorted);
       setData(sorted);
     };
-
     sortArray(sortType);
   }, [sortType]);
 
@@ -36,7 +33,6 @@ export default function Jobdata({ jobdatas, activetype }) {
         <div className="activetypejobs">
           <p >{activetype}</p>
         <select onChange={(e) => setSortType(e.target.value)}>
-          {/* <option value="dateFormat">dateFormat</option> */}
           <option value="default">default</option>
           <option value="name">name</option>
           <option value="recent">recent</option>
@@ -51,7 +47,7 @@ export default function Jobdata({ jobdatas, activetype }) {
               <div className="jobgeneric-sidline"></div>
               <div className="job-homepage">
                 <div>
-                  <p className="jobname">{items.name}</p>
+                  <p className="job-name">{items.name}</p>
                 </div>
                 <div>
                   <p className="jobgeneric">
@@ -62,8 +58,8 @@ export default function Jobdata({ jobdatas, activetype }) {
                 <div className="job-homepage">
                   <div className="jobgeneric">
                     <div className="job-status">
-                      <p className="d">posted: {items.posted}</p>
-                      <p className="d">status: {items.status}</p>
+                      <p className="job-posted-status">posted: {items.posted}</p>
+                      <p className="job-posted-status">status: {items.status}</p>
                     </div>
                   </div>
                 </div>
@@ -101,7 +97,7 @@ export default function Jobdata({ jobdatas, activetype }) {
 
               <div className="job-homepage">
                 <div className="jobgeneric">
-                  <button className="seeApplicationJob">
+                  <button className="see-Application-Job-btn">
                     {" "}
                     see application{" "}
                   </button>

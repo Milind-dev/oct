@@ -8,7 +8,7 @@ export default function NotFound() {
 	fetch("https://oct-epf5.vercel.app/")
       .then((res) => res.json())
       .then((responses) =>  setDat([responses.data]))		
-	},[]);
+	},[dat]);
 
 
 	return (
