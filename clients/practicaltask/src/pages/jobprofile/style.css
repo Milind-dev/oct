@@ -55,6 +55,8 @@
     font-size: 12px;
     line-height: 14px;
     background-color:  hsla(9,77%,61%,.1);
+    border-radius:30px;
+    padding:10px 38px
 }
 .daysleftcolorred{
     
@@ -63,8 +65,9 @@
     font-weight: 700;
     font-size: 12px;
     line-height: 14px;
-    /* background-color: #ca5843;; */
-    background-color:  hsla(9,77%,61%,.1)
+    background-color:  hsla(9,77%,61%,.1);
+    border-radius:30px;
+    padding:10px 38px;
 }
 .daysleftcoloryellow{
     color:rgb(196, 169, 35);
@@ -73,6 +76,8 @@
     font-size: 12px;
     line-height: 14px;
     background-color: hsla(9,77%,61%,.1);
+    border-radius:30px;
+    padding:10px 38px
 }
 
 .see-Application-Job-btn{
