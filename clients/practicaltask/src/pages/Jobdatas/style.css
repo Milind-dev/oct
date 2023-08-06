@@ -1,0 +1,89 @@
+.containers{
+    /* border: 1px solid orangered; */
+    display: flex;
+    height: 22vh;
+    padding: 3vh;
+    font-weight: bold;
+    text-align: left;
+}
+.activejobscontainer{
+    margin-left: 50px;
+    width: 90%;
+}
+.activetypejobs{
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+}
+.job-homepage {
+    width: 100%;
+    background-color: white;    
+    padding: 2vh;
+    /* background-color: #809CE0; */
+}
+.jobname{
+    color: #809CE0;
+}
+.jobgeneric-sidline{
+    background-color: #B9ECD4;
+    width: 4vh;
+    border-radius: 2vh;
+}
+.jobgeneric{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0.5vh;
+    font-size: 12px;
+    /* margin-left: 41px; */
+}
+.job-status{
+    margin-left: -39px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.job-status > .d{
+    margin-left: 3vh;
+   
+}
+.daysleftcolorgreeen{
+    color: rgb(69, 134, 119);
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+}
+.daysleftcolorred{
+    
+    color: #E86750;
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    /* background-color: #ca5843;; */
+}
+.daysleftcoloryellow{
+    color:rgb(196, 169, 35);
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.seeApplicationJob{
+   
+    background: #F5F8FE;
+    padding: 6px 15px 7px 16px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+    text-transform: capitalize;
+    box-shadow: none;
+    border-radius: 3px;
+    position: relative;
+    margin-right: 31px;
+    overflow: hidden;
+    color: #6390DF;
+    margin: 0;
+}
