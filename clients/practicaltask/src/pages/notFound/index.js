@@ -5,7 +5,7 @@ import Jobdata from "../jobdatas/Jobdata";
 export default function NotFound() {
   const [dat, setDat] = useState([]);
   useEffect(() => {
-	fetch("https://ones-seven.vercel.app/")
+	fetch("https://oct-epf5.vercel.app/")
       .then((res) => res.json())
       .then((responses) =>  setDat([responses.data]))		
 	},[]);
