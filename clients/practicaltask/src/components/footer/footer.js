@@ -1,6 +1,9 @@
 import React from 'react';
 import Logo from '../../assets/images/logo.png'
 import { Link } from 'react-router-dom';
+// import { ReactComponent as Phone } from '../../assets/images/phone.svg';
+// import { ReactComponent as Mail } from '../../assets/images/mail-2.svg';
+
 import { ReactComponent as Phone } from '../../assets/images/phone.svg';
 import { ReactComponent as Mail } from '../../assets/images/mail-2.svg';
 
