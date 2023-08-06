@@ -12,11 +12,6 @@ export default function Jobdata({ jobdatas, activetype }) {
         // applied: "applied"
       };
       const sortProperty = types[type];
-      console.log(sortProperty);
-      // console.log("bands", ...bands);
-      // const sorted = [...jobdatas].sort(
-      //   (a, b) => b[sortProperty] - a[sortProperty]
-      // );
 
       if (sortProperty === "default") {
         return setData([...jobdatas]);

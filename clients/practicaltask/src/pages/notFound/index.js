@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
-import { useState } from "react";
-// import Jobd from "../jobdatas/Jobdata";
-import Activejobdata from "../jobdatas/Activejobdata";
+import React, {useState, useEffect } from "react";
+
+import Jobd from "../jobprofile/Jobdata";
+
 export default function NotFound() {
   const [dat, setDat] = useState([]);
   useEffect(() => {
@@ -12,14 +12,13 @@ export default function NotFound() {
 
 
 	return (
-    // <h2 style={{textAlign: 'center'}}> </h2>
 	<>
-      {dat.map((item,indexes) => {
-        // console.log("item ", item);
+      {dat.map((item,index) => {
         return (
           <>
-            <Activejobdata activetype = {item.type} jobdatas = {item.jobData}  />
-            {/* <Jobd  jobdatas = {item.jobData}   activetype = {item.type} /> */}
+		  <div key={index}> 
+            <Jobd  jobdatas = {item.jobData}   activetype = {item.type} />
+		  </div>
           
           </>
         );
