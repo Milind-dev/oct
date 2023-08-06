@@ -18,7 +18,7 @@ export default function NotFound() {
         // console.log("item ", item);
         return (
           <>
-            <Activejobdata activetype = {item.type} jobdatas = {item.jobData} indexes={indexes} />
+            <Activejobdata activetype = {item.type} jobdatas = {item.jobData}  />
             {/* <Jobd  jobdatas = {item.jobData}   activetype = {item.type} /> */}
           
           </>
